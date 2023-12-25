@@ -4,6 +4,7 @@
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "random": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "type_traits": "cpp"
     }
 }
