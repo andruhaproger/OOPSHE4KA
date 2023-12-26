@@ -1,10 +1,11 @@
 #include <iostream>
-
-#include "lib.h"
+#include <calc.h>
 
 using namespace std;
 
 int main() {
-    cout << "Bruh: " << endl
-         << A() << endl;
+    int a, b;
+    cin >> a >> b;
+    int ans =  sum_of_bin_range(a, b);
+    cout << ans << endl;
 }
